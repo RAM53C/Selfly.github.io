@@ -182,7 +182,7 @@
 				-webkit-animation: bg 45s linear infinite;
 				-ms-animation: bg 45s linear infinite;
 				animation: bg 45s linear infinite;
-				opacity: 1;
+				opacity: 0;
 				visibility: visible;
 				z-index: 1;
 			}
