@@ -41,7 +41,7 @@
 						images: {
 							'images/skydive.jpg': 'center',
 							'images/crowd.jpg': 'center',
-							'images/bg03.jpg': 'center'
+							'images/Scuba diving.jpg': 'center'
 						},
 
 					// Delay.
