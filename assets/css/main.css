@@ -170,7 +170,7 @@
 			background-size: cover;
 			height: 100%;
 			left: 0;
-			opacity: 1;
+			opacity: 0;
 			position: absolute;
 			top: 0;
 			visibility: hidden;
@@ -182,7 +182,7 @@
 				-webkit-animation: bg 45s linear infinite;
 				-ms-animation: bg 45s linear infinite;
 				animation: bg 45s linear infinite;
-				opacity: 0;
+				opacity: 1;
 				visibility: visible;
 				z-index: 1;
 			}
