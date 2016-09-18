@@ -154,6 +154,7 @@
 					// Note: Doesn't actually do anything yet (other than report back with a "thank you"),
 					// but there's enough here to piece together a working AJAX submission call that does.
 					document.getElementById("signup1").className = "fade-out";
+					document.getElementById("signup2").className = "fade-in";
 						window.setTimeout(function() {
 
 							// Reset form.
