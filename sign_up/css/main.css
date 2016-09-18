@@ -1099,6 +1099,60 @@
 				}
 
 		}
+		
+		
+	#signup1 {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		position: relative;
+	}
+
+		#signup1 input[type="text"],
+		#signup1 input[type="password"],
+		#signup1 input[type="email"] {
+			width: 18em;
+		}
+
+		#signup1 > * {
+			margin: 0 0 0 1em;
+		}
+
+		#signup1 > :first-child {
+			margin: 0 0 0 0;
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#signup1 {
+				-moz-flex-direction: column;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+			}
+
+				#signup1 input[type="type"]
+				#signup1 input[type="password"],
+				#signup1 input[type="email"] {
+					width: 100%;
+				}
+
+				#signup1 > * {
+					margin: 1.25em 0 0 0;
+				}
+
+				#signup1 .message {
+					bottom: -1.5em;
+					font-size: 0.9em;
+					height: 1em;
+					left: 0;
+					line-height: inherit;
+					margin-top: 0;
+					position: absolute;
+				}
+
+		}
 
 /* Footer */
 
