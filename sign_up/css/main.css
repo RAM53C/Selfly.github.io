@@ -474,6 +474,7 @@
 		color: rgba(255, 255, 255, 0.5);
 		position: relative;
 		margin: 0 0 1.5em 0;
+		text-align: center;
 	}
 
 	header h2 + p {
@@ -1077,7 +1078,7 @@
 				flex-direction: column;
 			}
 
-				#signup-form input[type="type"],
+				#signup-form input[type="type"]
 				#signup-form input[type="password"],
 				#signup-form input[type="email"] {
 					width: 100%;
