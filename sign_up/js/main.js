@@ -108,8 +108,8 @@
 		(function() {
 
 			// Vars.
-				var $form = document.querySelectorAll('#signup-form')[0],
-					$submit = document.querySelectorAll('#signup-form input[type="submit"]')[0],
+				var $form = document.querySelectorAll('#signup1')[0],
+					$submit = document.querySelectorAll('#signup1 input[type="submit"]')[0],
 					$message;
 
 			// Bail if addEventListener isn't supported.
@@ -153,6 +153,7 @@
 					// Process form.
 					// Note: Doesn't actually do anything yet (other than report back with a "thank you"),
 					// but there's enough here to piece together a working AJAX submission call that does.
+					document.getElementById("signup1").style.display = "none";
 						window.setTimeout(function() {
 
 							// Reset form.
