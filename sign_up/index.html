@@ -22,12 +22,12 @@
 				<p>Create an account:</p>
 			</header>
       <!-- Signin Form-->
-        <form id="signup-form" method="post" >
+        <form id="signupstep1" method="post" >
                         <input type="text" name="firstname" id="firstname" placeholder="First Name" />
                         <input type="text" name="lastname" id="lastname" placeholder="Last Name" />
         	        <input type="email" name="email" id="email" placeholder="Email Address" />
         	        <input type="password" name="password" id="password" placeholder="Password" />
-			<input type="submit" value="Create the account!" />
+			<input type="submit" onclick="next_step1()" value="Next Step" />
 	</form>
 
 
@@ -47,6 +47,11 @@
 		<!-- Scripts -->
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="js/main.js"></script>
+			<script>
+				function next_step1() {
+					document.getElementById("signupstep1").style.display = "none";
+				}
+			</script>
 
 	</body>
 </html>
