@@ -1108,6 +1108,15 @@
 		display: flex;
 		position: relative;
 	}
+	{
+            -webkit-transition: opacity 0.2s ease-in;
+            -moz-transition: opacity 0.2s ease-in;
+            -o-transition: opacity 0.2s ease-in;
+        }
+        #signup1.fade-out
+        {
+            opacity:0;
+        }
 
 		#signup1 input[type="text"],
 		#signup1 input[type="password"],
