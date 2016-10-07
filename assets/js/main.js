@@ -162,7 +162,7 @@
 								$submit.disabled = false;
 
 							// Show message.
-								$message._show('Our database is under construction...');
+								$message._show('success', 'Our database is under construction...');
 								//$message._show('failure'/'success', 'Something went wrong. Please try again.');
 
 						}, 750);
