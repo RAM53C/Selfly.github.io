@@ -11,9 +11,9 @@ jQuery(document).ready(function() {
 
 					// Images (in the format of 'url': 'alignment').
 						images: {
-							'images/skydive.jpg': 'center',
-							'images/crowd.jpg': 'center',
-							'images/Scuba diving.jpg': 'center'
+							'images/bg01.jpg': 'center',
+							'images/bg02.jpg': 'center',
+							'images/bg03.jpg': 'center'
 						},
 
 					// Delay.
